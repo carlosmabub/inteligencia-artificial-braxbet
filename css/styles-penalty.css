@@ -33,14 +33,12 @@ header {
 
 /* Container */
 .container {
-    border: 5px solid rgb(255, 255, 255);
     background-color: rgb(24, 24, 24);
     padding: 15px;
     min-width: 380px;
     max-width: 100vh;
 }
 .container-main {
-    border: 5px solid rgb(255, 0, 0);
     border-radius: 10px;
     min-width: 380px;
 }

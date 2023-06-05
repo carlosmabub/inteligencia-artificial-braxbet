@@ -4,7 +4,7 @@ button.addEventListener('click', sortear)
 
 t = 60
 function disabled(){
-    document.getElementById('contador').innerHTML = "Sinal valido por : " + t + " segundos"
+    document.getElementById('contador').innerHTML = "Sinal valido por : <br> " + t + " segundos"
     t--
     if(t < 0){
         button.disabled = false
@@ -69,12 +69,12 @@ function sortear(){
     }, 10000);
     
     setTimeout(() => {
-        document.getElementById('texto-hack').innerHTML = "Injetando Hack"
+        document.getElementById('texto-hack').innerHTML = "loading..."
         document.getElementById('texto-hack').style.color = 'red'
     }, 1000);
 
     setTimeout(() => {
-        document.getElementById('texto-hack').innerHTML = "Hackeando"
+        document.getElementById('texto-hack').innerHTML = "I. A. Analisando"
         document.getElementById('texto-hack').style.color = 'yellow'
     }, 5000);
 
