@@ -1,0 +1,114 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Deixa o site all black */
+html{
+    background-color: rgb(0, 0, 0);
+    min-width: 380px;
+    max-height: 750px;
+}
+
+/* Centraliza ao tamanho do monitor */
+body {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+}
+
+/* Imagem cabeçalho */
+.img-header{
+    width: 180px;
+    margin-top: 20px;
+
+}
+
+/* Container */
+.container {
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    min-width: 380px;
+    max-width: 100vh;
+}
+.container-main {
+    border-radius: 10px;
+    min-width: 380px;
+}
+
+/* Grid */
+.minas{
+    padding: 10px;
+    border: 5px solid rgb(48, 103, 255);
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(0, 140, 255);
+    grid-template-columns: repeat(5, 50px);
+    row-gap: 5px;
+}
+/* Imagens minas */
+.posicao-minas{
+    border-radius: 5px;
+}
+
+/* texto */
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+#texto-hack{
+    color: rgb(63, 255, 38);
+}
+
+
+/* Botões */
+.btn {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(52, 170, 37);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+#btn-jogue-aqui{
+    background-color: red;
+    margin-top: 20px;
+    font-weight: 750;
+}
+
+/* Texto do bottom */
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    text-align: center;
+}
