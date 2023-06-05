@@ -10,6 +10,7 @@ function disabled(){
         button.disabled = false
         document.getElementById('contador').innerHTML = "expirado"
         document.getElementById('contador').style.color = 'red'
+        document.getElementById('texto-hack').innerHTML = " "
     }else{
         setTimeout(disabled, 1000);
         button.disabled = true

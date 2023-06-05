@@ -20,6 +20,7 @@ function contdown(){
         document.getElementById('contador').innerHTML = "expirado"
         document.getElementById('contador').style.color = 'red'
         document.getElementById('btn-hacker1').disabled = false
+        document.getElementById('texto-hack').innerHTML = " "
     }else{
         setTimeout(contdown, 1000)
         document.getElementById('btn-hacker1').disabled = true

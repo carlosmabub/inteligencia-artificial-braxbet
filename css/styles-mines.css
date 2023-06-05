@@ -25,12 +25,23 @@ header {
     background-color: rgb(0, 0, 0);
     text-align: center;
 }
+/* botão return*/
+#main-return{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 0;
+    top: 0;
+    margin: 20px;
+    background-image: url(../img/Home_icon_black.png);
+    background-size: cover;
+    background-position: center;
 
+}
 /* Imagem cabeçalho */
 .img-header{
     width: 300px;
     margin-top: 20px;
-
 }
 
 /* Container */
@@ -43,6 +54,9 @@ header {
 .container-main {
     border-radius: 10px;
     min-width: 380px;
+}
+.container-header{
+    position: relative;
 }
 
 /* Grid */
