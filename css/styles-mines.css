@@ -22,13 +22,13 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
 /* Imagem cabeçalho */
 .img-header{
-    width: 180px;
+    width: 300px;
     margin-top: 20px;
 
 }

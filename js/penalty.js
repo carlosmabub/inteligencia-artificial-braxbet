@@ -8,11 +8,17 @@ function contdown(){
     t--
     if(t < 0){
         document.getElementById(`1`).src = "./img/bola.png";
+        document.getElementById(`1`).style.width = '30px'
         document.getElementById(`2`).src = "./img/bola.png";
+        document.getElementById(`2`).style.width = '30px'
         document.getElementById(`3`).src = "./img/bola.png";
+        document.getElementById(`3`).style.width = '30px'
         document.getElementById(`4`).src = "./img/bola.png";
+        document.getElementById(`4`).style.width = '30px'
         document.getElementById(`5`).src = "./img/bola.png";
+        document.getElementById(`5`).style.width = '30px'
         document.getElementById('contador').innerHTML = "expirado"
+        document.getElementById('contador').style.color = 'red'
         document.getElementById('btn-hacker1').disabled = false
     }else{
         setTimeout(contdown, 1000)

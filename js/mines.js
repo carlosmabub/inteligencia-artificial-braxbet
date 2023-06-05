@@ -8,6 +8,8 @@ function disabled(){
     t--
     if(t < 0){
         button.disabled = false
+        document.getElementById('contador').innerHTML = "expirado"
+        document.getElementById('contador').style.color = 'red'
     }else{
         setTimeout(disabled, 1000);
         button.disabled = true
