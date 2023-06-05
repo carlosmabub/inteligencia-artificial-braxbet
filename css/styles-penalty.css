@@ -53,6 +53,7 @@ header {
 .container-main {
     border-radius: 10px;
     min-width: 380px;
+    padding: 20px;
 }
 .container-header{
     position: relative;
