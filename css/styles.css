@@ -8,10 +8,15 @@
 
 /* Deixa o site all black */
 html{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     width: 100vw;
     height: 100vh;
-}
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+} 
+
 
 /* Centraliza ao tamanho do monitor */
 body {
@@ -33,12 +38,9 @@ header{
 
 /* Containers*/
 .container-main {
-    background-image: url(../img/background-gif.gif);
-    background-size: cover;
-    background-position: center;
     border-radius: 10px;
     height: 100vh;
-    box-sizing: border-box;
+    background-color: transparent;
 } 
 .container {
     border: 1px solid red;
@@ -46,8 +48,8 @@ header{
     min-width: 375px;
     max-width: 100vh;
     box-sizing: border-box;
-} 
-
+    background-color: transparent;
+}
 
 /* texto menu */
 h1 {
