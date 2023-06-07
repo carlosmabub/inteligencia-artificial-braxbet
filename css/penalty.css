@@ -1,5 +1,6 @@
 /* Reset */
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: Helvetica;
@@ -28,11 +29,9 @@ header {
 /* botão return*/
 #main-return{
     position: absolute;
-    width: 26px;
-    height: 26px;
-    margin: 10px;
+    width: 25px;
+    height: 25px;
     left: 0;
-    top: 0;
     background-image: url(../img/Home_icon_black.png);
     background-size: cover;
     background-position: center;
@@ -58,6 +57,7 @@ header {
 
 /* Grid */
 .chutes {
+    box-sizing: border-box;
     margin-left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;

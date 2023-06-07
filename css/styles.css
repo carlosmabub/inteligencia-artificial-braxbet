@@ -9,6 +9,8 @@
 /* Deixa o site all black */
 html{
     background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
 }
 
 /* Centraliza ao tamanho do monitor */
@@ -30,16 +32,22 @@ header{
 }
 
 /* Containers*/
+.container-main {
+    background-image: url(../img/background-gif.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 100vh;
+    box-sizing: border-box;
+} 
 .container {
-    background-color: rgb(24, 24, 24);
+    border: 1px solid red;
     padding: 15px;
     min-width: 375px;
     max-width: 100vh;
+    box-sizing: border-box;
 } 
-.container-main {
-    border-radius: 10px;
-    height: 100vh;
-} 
+
 
 /* texto menu */
 h1 {
@@ -50,21 +58,8 @@ h1 {
     font-weight: 800;
 }
 
-/* img Joystick e Cassino */
-/* text */
-h2 {
-    padding-bottom: 15px;
-    color: white;
-    font-size: 24px;
-}
-/* img Joystick */
-.img-container{
-    width: 25px;
-}
-/* img e text */
-h2, .img-container{
-    display: inline-block;
-    margin-left: 10px;
+titulo-ia{
+    background-color: rgb(19, 19, 139);
 }
 
 /* Fileira de Jogos */
